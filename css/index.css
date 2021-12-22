@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+ .menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+  .menu a:hover{
+  background: yellowgreen;
+}
+
+.menu a {
+  background-color: blue;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color:brown;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
